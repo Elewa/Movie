@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/favFragment"
+    android:orientation="horizontal">
+    <fragment
+        android:id="@+id/main"
+        android:layout_width="@dimen/Zero_Width"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:name="com.example.elewa.movie.Fragment.FavorityActivityFragment"
+        tools:layout="@layout/fragment_favority_activity" />
+
+    <fragment
+        android:id="@+id/replace"
+        android:name="com.example.elewa.movie.Fragment.replace"
+        android:layout_width="@dimen/Zero_Width"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        tools:layout="@layout/fragment_replace" />
+
+
+</LinearLayout>
